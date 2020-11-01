@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgFront"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:src="@drawable/icget"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFront"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:text="Healthy On You"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintTop_toBottomOf="@+id/imgFront" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Key of happiness is not a life for money It is What you makes"
+        android:textColor="#A3A2AD"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtFront"
+        app:layout_constraintStart_toStartOf="@+id/txtFront"
+        app:layout_constraintTop_toBottomOf="@+id/txtFront" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_btn_getstarted"
+        android:text="Get started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
