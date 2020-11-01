@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtFront"
+        android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -32,16 +32,17 @@
         app:layout_constraintTop_toBottomOf="@+id/imgFront" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textDesription"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Key of happiness is not a life for money It is What you makes"
+        android:text="Key of happiness is not a life for money It's What you make out of it..... "
         android:textColor="#A3A2AD"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/txtFront"
-        app:layout_constraintStart_toStartOf="@+id/txtFront"
-        app:layout_constraintTop_toBottomOf="@+id/txtFront" />
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textTitle"
+        app:layout_constraintStart_toStartOf="@+id/textTitle"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle" />
 
     <Button
         android:id="@+id/btnGetStarted"
@@ -52,7 +53,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textDesription" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
